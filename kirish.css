@@ -1,0 +1,86 @@
+.kirish-qismi {
+    display: flex;
+    height: auto;
+    background: #f0f4f8;
+    font-family: sans-serif;
+    align-items: center;
+}
+  
+  .kirish-kontent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    margin: 40px;
+    height: 200px;
+    max-width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-left: 200px;
+    
+  }
+  
+  .kirish-kontent h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .raqam-blok {
+    display: flex;
+    align-items: center;
+    border: 2px solid #cce0f7;
+    border-radius: 8px;
+    padding: 10px;
+    background: #f9fbfd;
+    margin-bottom: 20px;
+  }
+  
+  .bayroq {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .raqam-blok input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .kirish-kontent button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .kirish-kontent button:hover {
+    background-color: #2d80e6;
+  }
+  
+  .kirish-rasm {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-left: 200px;
+    width: 400px;
+    height: auto;
+  }
+  
+  .kirish-rasm img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
